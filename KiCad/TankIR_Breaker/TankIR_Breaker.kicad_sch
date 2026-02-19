@@ -2939,6 +2939,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-PowerSymbol:5V")
+		(at 149.86 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15d849e6-8bca-4868-953d-c7795b07ef4a")
+		(property "Reference" "#PWR08"
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 149.86 69.85 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "833d1d1f-fba3-4970-bfe7-08e0b9798f6b")
+		)
+		(instances
+			(project "TankIR_Breaker"
+				(path "/09972bc1-aadf-4a5a-b293-70d074730d27"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:LM7805_TO220")
 		(at 57.15 87.63 0)
 		(unit 1)
